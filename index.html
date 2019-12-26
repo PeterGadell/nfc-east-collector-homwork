@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFC East Collector Game</title>
+
+
+	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+   
+<style>
+body {
+	background-color: navy;
+	margin: 0px;
+	padding: 0px;
+    color:white;
+    
+}
+.panel-body {
+background-color: lightslategrey;
+color: white;
+
+
+}
+.panel-title {
+color:white;
+background-color: red;
+
+}
+
+</style>
+    
+   
+</head>
+    <body>
+        <div class="header">
+                <h1 class="text-center">NFC East Collector Game</h1>
+            </div>
+                
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><b>Rules of the Gridiron</b></h3>
+                                    </div>
+                                <div class="panel-body">
+                                    <p> A random number will be generated for you at the start of the game.</p>
+        
+                                    <p>There are four NFC East teams to the right of your screen:</p>
+                                    <ol>
+                                        <li>Cowboys</li>
+                                        <li>Giants</li>
+                                        <li>Eagles</li>
+                                        <li>Redskins</li>
+                                    </ol>
+                                                
+                                    <p>Clicking on a team will add a certain amount of points to your total score on the Scoreboard.</p>
+                                        
+                                    <p>To win the game, your total score must be equal to the random number</p>
+                                                
+                                    <p>You lose the game if your total score goes above the random number.</p>
+                                        
+                                    <p>The value of each team is hidden from you until you click on it. </p>
+                                        
+                                    <p>Every new game will generate new values for each team.</p>
+                                
+                                    <p>G-Time!</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-0">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-4 target-number">
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-4 win-lose-counter">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 crystal-images">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 total-score">
+                                        <p>
+                                            Scoreboard:
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 score-number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- link for JavaScript nfc east collector game -->
+    <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>
