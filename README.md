@@ -1,4 +1,4 @@
-Welcome to the NFC East. 
+
 Rules of the game: 
 
 A random number will be generated for you at the start of the game along with four pictures of NFC East teams when you open up the game. 
